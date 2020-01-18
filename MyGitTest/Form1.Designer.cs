@@ -32,6 +32,7 @@
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
+            this.xtraUserControl1 = new DevExpress.XtraEditors.XtraUserControl();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,16 +63,25 @@
             // 
             // ribbonStatusBar1
             // 
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 430);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 415);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(800, 20);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(800, 35);
+            // 
+            // xtraUserControl1
+            // 
+            this.xtraUserControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.xtraUserControl1.Location = new System.Drawing.Point(0, 182);
+            this.xtraUserControl1.Name = "xtraUserControl1";
+            this.xtraUserControl1.Size = new System.Drawing.Size(800, 233);
+            this.xtraUserControl1.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.xtraUserControl1);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl1);
             this.Name = "Form1";
@@ -88,6 +98,7 @@
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
         private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar1;
+        private DevExpress.XtraEditors.XtraUserControl xtraUserControl1;
     }
 }
 
